@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsla(292, 2%, 54%, 1);
+}
+.container{
+    background-color: rgb(20, 20, 50);
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    position: relative;
+    background-image: url(clock.jpg);
+    border-radius: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+   
+  
+}
+
+.container{
+    box-shadow: 6px 6px 20px hsla(227, 94%, 48%, 0.989), -6px -6px 30px rgb(247, 247, 147), -0px -0px 80px rgb(170, 21, 21);
+}
+
+
+.container:hover{
+    box-shadow: 6px 6px 20px hsla(227, 66%, 71%, 0.989), -6px -6px 30px rgb(214, 214, 23), -0px -0px 80px rgb(255, 136, 136);
+
+}
+
+.arrow{
+   
+    position: absolute;
+    transform-origin: bottom;
+    box-shadow:  0.1px 0.1px 15px rgb(207, 26, 183);
+    border-radius:10px;
+}
+
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.5%;
+    opacity:0.99;
+    background-color: red;
+    
+}
+
+
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 49.5%;
+    opacity:0.99;
+    background-color: rgb(32, 246, 32);
+}
+
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.9%;
+    opacity:0.99;
+    background-color: hsla(235, 100%, 50%, 0.919);
+}
+
+h3{
+    box-shadow: 6px 6px 20px hsla(227, 94%, 48%, 0.989), -6px -6px 30px rgb(214, 214, 23), -0px -0px 80px rgb(170, 21, 21);
+    border-radius: 20px;
+
+}
+
+
+.container:active{
+    box-shadow: 6px 6px 20px hsla(89, 90%, 56%, 0.989), -6px -6px 30px rgb(214, 214, 23), -0px -0px 80px rgb(170, 21, 21);
+
+}
+
+h3:hover{
+    box-shadow: 6px 6px 20px hsla(227, 66%, 71%, 0.989), -6px -6px 30px rgb(214, 214, 23), -0px -0px 80px rgb(255, 136, 136);
+
+}
