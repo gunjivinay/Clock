@@ -9,7 +9,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsla(292, 2%, 54%, 1);
+    background-color: black;
 }
 .container{
     background-color: rgb(20, 20, 50);
